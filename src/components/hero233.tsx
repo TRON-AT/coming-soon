@@ -13,7 +13,7 @@ const Hero233 = () => {
 
   return (
     <section className="relative h-screen w-screen overflow-hidden bg-background py-32">
-      <div className="relative z-20 container flex flex-col items-center justify-center gap-4 py-10 text-center md:mt-22">
+      <div className="relative z-20 container flex flex-col items-center justify-center gap-4 py-10 text-center md:mt-22 px-4 md:px-0">
         <div className="absolute -z-1 size-full max-w-3xl bg-background blur-xl" />
         <Button
           variant="secondary"
@@ -33,7 +33,7 @@ const Hero233 = () => {
           </h1>
         </div>
 
-        <p className="mt-5 max-w-xl bg-background text-muted-foreground/80">
+        <p className="mt-5 max-w-xl bg-background text-muted-foreground/80 px-2 md:px-0">
           Hiring devs shouldn’t drain your team. Our AI reviews coding projects, scores them, gives feedback, and even runs follow-up interviews, so your engineers can stay focused and productive!
         </p>
 
